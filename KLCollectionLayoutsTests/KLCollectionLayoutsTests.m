@@ -7,9 +7,14 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "KLAnchoredCollectionViewFlowLayout.h"
+//#import >
 
 @interface KLCollectionLayoutsTests : XCTestCase
-
+{
+    KLAnchoredCollectionViewFlowLayout *layout;
+    UICollectionView *view;
+}
 @end
 
 @implementation KLCollectionLayoutsTests
@@ -17,20 +22,13 @@
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    layout = [[KLAnchoredCollectionViewFlowLayout alloc] init];
+    view = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, 320, 480) collectionViewLayout:layout];
 }
 
-- (void)tearDown
+- (void)test_
 {
-    // Tear-down code here.
-    
-    [super tearDown];
-}
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

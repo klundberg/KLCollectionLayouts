@@ -6,8 +6,4 @@
 //  Copyright (c) 2013 Kevin Lundberg. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface KLCollectionLayouts : NSObject
-
-@end
+#import "KLAnchoredCollectionViewFlowLayout.h"

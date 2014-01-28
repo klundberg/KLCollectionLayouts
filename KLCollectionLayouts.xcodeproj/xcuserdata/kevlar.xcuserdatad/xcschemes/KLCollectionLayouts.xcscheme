@@ -20,6 +20,20 @@
                ReferencedContainer = "container:KLCollectionLayouts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "967C84CBB4FA46AD868EEC53"
+               BuildableName = "libPods-KLCollectionLayoutsTests.a"
+               BlueprintName = "Pods-KLCollectionLayoutsTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

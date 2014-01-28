@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		795F555317A7FD750064E12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F555217A7FD750064E12A /* Foundation.framework */; };
 		795F555817A7FD750064E12A /* KLCollectionLayouts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 795F555717A7FD750064E12A /* KLCollectionLayouts.h */; };
-		795F555A17A7FD750064E12A /* KLCollectionLayouts.m in Sources */ = {isa = PBXBuildFile; fileRef = 795F555917A7FD750064E12A /* KLCollectionLayouts.m */; };
 		795F556117A7FD750064E12A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F556017A7FD750064E12A /* XCTest.framework */; };
 		795F556217A7FD750064E12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F555217A7FD750064E12A /* Foundation.framework */; };
 		795F556417A7FD750064E12A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F556317A7FD750064E12A /* UIKit.framework */; };
 		795F556717A7FD750064E12A /* libKLCollectionLayouts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F554F17A7FD750064E12A /* libKLCollectionLayouts.a */; };
 		795F556D17A7FD750064E12A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 795F556B17A7FD750064E12A /* InfoPlist.strings */; };
 		795F556F17A7FD750064E12A /* KLCollectionLayoutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 795F556E17A7FD750064E12A /* KLCollectionLayoutsTests.m */; };
+		795F557A17A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 795F557917A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m */; };
+		D724F4F70192493EA336FF87 /* libPods-KLCollectionLayoutsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 491E299E2A04424CB299BE5A /* libPods-KLCollectionLayoutsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +43,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLCollectionLayoutsTests.xcconfig"; path = "Pods/Pods-KLCollectionLayoutsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		491E299E2A04424CB299BE5A /* libPods-KLCollectionLayoutsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLCollectionLayoutsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F554F17A7FD750064E12A /* libKLCollectionLayouts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKLCollectionLayouts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F555217A7FD750064E12A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		795F555617A7FD750064E12A /* KLCollectionLayouts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLCollectionLayouts-Prefix.pch"; sourceTree = "<group>"; };
 		795F555717A7FD750064E12A /* KLCollectionLayouts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLCollectionLayouts.h; sourceTree = "<group>"; };
-		795F555917A7FD750064E12A /* KLCollectionLayouts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLCollectionLayouts.m; sourceTree = "<group>"; };
 		795F555F17A7FD750064E12A /* KLCollectionLayoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLCollectionLayoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F556017A7FD750064E12A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		795F556317A7FD750064E12A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		795F556A17A7FD750064E12A /* KLCollectionLayoutsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLCollectionLayoutsTests-Info.plist"; sourceTree = "<group>"; };
 		795F556C17A7FD750064E12A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		795F556E17A7FD750064E12A /* KLCollectionLayoutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLCollectionLayoutsTests.m; sourceTree = "<group>"; };
+		795F557817A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLAnchoredCollectionViewFlowLayout.h; path = ../KLAnchoredCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		795F557917A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLAnchoredCollectionViewFlowLayout.m; path = ../KLAnchoredCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				795F556417A7FD750064E12A /* UIKit.framework in Frameworks */,
 				795F556717A7FD750064E12A /* libKLCollectionLayouts.a in Frameworks */,
 				795F556217A7FD750064E12A /* Foundation.framework in Frameworks */,
+				D724F4F70192493EA336FF87 /* libPods-KLCollectionLayoutsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 				795F556817A7FD750064E12A /* KLCollectionLayoutsTests */,
 				795F555117A7FD750064E12A /* Frameworks */,
 				795F555017A7FD750064E12A /* Products */,
+				1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				795F555217A7FD750064E12A /* Foundation.framework */,
 				795F556017A7FD750064E12A /* XCTest.framework */,
 				795F556317A7FD750064E12A /* UIKit.framework */,
+				491E299E2A04424CB299BE5A /* libPods-KLCollectionLayoutsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +117,9 @@
 		795F555417A7FD750064E12A /* KLCollectionLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				795F557817A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.h */,
+				795F557917A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m */,
 				795F555717A7FD750064E12A /* KLCollectionLayouts.h */,
-				795F555917A7FD750064E12A /* KLCollectionLayouts.m */,
 				795F555517A7FD750064E12A /* Supporting Files */,
 			);
 			path = KLCollectionLayouts;
@@ -150,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 795F557217A7FD750064E12A /* Build configuration list for PBXNativeTarget "KLCollectionLayouts" */;
 			buildPhases = (
+				38DF79A084D143DCBDFED03B /* Check Pods Manifest.lock */,
 				795F554B17A7FD750064E12A /* Sources */,
 				795F554C17A7FD750064E12A /* Frameworks */,
 				795F554D17A7FD750064E12A /* CopyFiles */,
+				2531E94FECC44B07B3F438C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 795F557517A7FD750064E12A /* Build configuration list for PBXNativeTarget "KLCollectionLayoutsTests" */;
 			buildPhases = (
+				5682E0D69E524A41859A76FF /* Check Pods Manifest.lock */,
 				795F555B17A7FD750064E12A /* Sources */,
 				795F555C17A7FD750064E12A /* Frameworks */,
 				795F555D17A7FD750064E12A /* Resources */,
+				EC6FE41F501B4BAD8029995C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,12 +231,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2531E94FECC44B07B3F438C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KLCollectionLayouts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DF79A084D143DCBDFED03B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5682E0D69E524A41859A76FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6FE41F501B4BAD8029995C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KLCollectionLayoutsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		795F554B17A7FD750064E12A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795F555A17A7FD750064E12A /* KLCollectionLayouts.m in Sources */,
+				795F557A17A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +425,7 @@
 		};
 		795F557617A7FD750064E12A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -370,6 +446,7 @@
 		};
 		795F557717A7FD750064E12A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -403,6 +480,7 @@
 				795F557417A7FD750064E12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		795F557517A7FD750064E12A /* Build configuration list for PBXNativeTarget "KLCollectionLayoutsTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +489,7 @@
 				795F557717A7FD750064E12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
