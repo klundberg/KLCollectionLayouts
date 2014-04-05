@@ -1,13 +1,20 @@
 PODS:
+  - KLCollectionLayouts (0.0.1)
   - OCHamcrest (3.0.1)
   - OCMockito (0.23):
     - OCHamcrest
 
 DEPENDENCIES:
+  - KLCollectionLayouts (from `.`)
   - OCMockito
 
+EXTERNAL SOURCES:
+  KLCollectionLayouts:
+    :path: .
+
 SPEC CHECKSUMS:
+  KLCollectionLayouts: 5a855471c90f9840d4ed44a3d0ead16475929c38
   OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
   OCMockito: 01560fd24319b85c223e10f52e2e41fbe2c6d434
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.31.1

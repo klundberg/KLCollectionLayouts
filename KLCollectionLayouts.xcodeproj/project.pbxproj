@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790EE89E18CD691800735842 /* KRLSimpleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EE89D18CD691800735842 /* KRLSimpleCollectionViewController.m */; };
 		795F555317A7FD750064E12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F555217A7FD750064E12A /* Foundation.framework */; };
 		795F555817A7FD750064E12A /* KLCollectionLayouts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 795F555717A7FD750064E12A /* KLCollectionLayouts.h */; };
 		795F556117A7FD750064E12A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F556017A7FD750064E12A /* XCTest.framework */; };
@@ -45,6 +46,10 @@
 /* Begin PBXFileReference section */
 		1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLCollectionLayoutsTests.xcconfig"; path = "Pods/Pods-KLCollectionLayoutsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		491E299E2A04424CB299BE5A /* libPods-KLCollectionLayoutsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLCollectionLayoutsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790EE89C18CD691800735842 /* KRLSimpleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLSimpleCollectionViewController.h; sourceTree = "<group>"; };
+		790EE89D18CD691800735842 /* KRLSimpleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLSimpleCollectionViewController.m; sourceTree = "<group>"; };
+		794C05B218E522CA00A94FC3 /* KLCollectionLayouts.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KLCollectionLayouts.podspec; sourceTree = "<group>"; };
+		794C05B318E523B100A94FC3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		795F554F17A7FD750064E12A /* libKLCollectionLayouts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKLCollectionLayouts.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F555217A7FD750064E12A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		795F555617A7FD750064E12A /* KLCollectionLayouts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLCollectionLayouts-Prefix.pch"; sourceTree = "<group>"; };
@@ -55,8 +60,9 @@
 		795F556A17A7FD750064E12A /* KLCollectionLayoutsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLCollectionLayoutsTests-Info.plist"; sourceTree = "<group>"; };
 		795F556C17A7FD750064E12A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		795F556E17A7FD750064E12A /* KLCollectionLayoutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLCollectionLayoutsTests.m; sourceTree = "<group>"; };
-		795F557817A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KLAnchoredCollectionViewFlowLayout.h; path = ../KLAnchoredCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		795F557917A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KLAnchoredCollectionViewFlowLayout.m; path = ../KLAnchoredCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		795F557817A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAnchoredCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		795F557917A7FDF10064E12A /* KLAnchoredCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAnchoredCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		79B6108A18EFA6C800F35661 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 		795F554617A7FD750064E12A = {
 			isa = PBXGroup;
 			children = (
+				79B6108A18EFA6C800F35661 /* README.md */,
+				794C05B318E523B100A94FC3 /* LICENSE */,
+				794C05B218E522CA00A94FC3 /* KLCollectionLayouts.podspec */,
 				795F555417A7FD750064E12A /* KLCollectionLayouts */,
 				795F556817A7FD750064E12A /* KLCollectionLayoutsTests */,
 				795F555117A7FD750064E12A /* Frameworks */,
@@ -138,6 +147,8 @@
 			children = (
 				795F556E17A7FD750064E12A /* KLCollectionLayoutsTests.m */,
 				795F556917A7FD750064E12A /* Supporting Files */,
+				790EE89C18CD691800735842 /* KRLSimpleCollectionViewController.h */,
+				790EE89D18CD691800735842 /* KRLSimpleCollectionViewController.m */,
 			);
 			path = KLCollectionLayoutsTests;
 			sourceTree = "<group>";
@@ -244,7 +255,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-KLCollectionLayouts-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-KLCollectionLayoutsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		38DF79A084D143DCBDFED03B /* Check Pods Manifest.lock */ = {
@@ -307,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EE89E18CD691800735842 /* KRLSimpleCollectionViewController.m in Sources */,
 				795F556F17A7FD750064E12A /* KLCollectionLayoutsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +413,7 @@
 		};
 		795F557317A7FD750064E12A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/KLCollectionLayouts.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -413,6 +426,7 @@
 		};
 		795F557417A7FD750064E12A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB1ADF25EA9496C9CD14B92 /* Pods-KLCollectionLayoutsTests.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/KLCollectionLayouts.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

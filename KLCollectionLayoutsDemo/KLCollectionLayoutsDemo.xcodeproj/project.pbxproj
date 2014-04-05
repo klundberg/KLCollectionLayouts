@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794C057B18E5217600A94FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057A18E5217600A94FC3 /* Foundation.framework */; };
+		794C057D18E5217600A94FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057C18E5217600A94FC3 /* CoreGraphics.framework */; };
+		794C057F18E5217600A94FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794C057E18E5217600A94FC3 /* UIKit.framework */; };
+		794C058518E5217600A94FC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 794C058318E5217600A94FC3 /* InfoPlist.strings */; };
+		794C058718E5217600A94FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C058618E5217600A94FC3 /* main.m */; };
+		794C058B18E5217600A94FC3 /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C058A18E5217600A94FC3 /* KLAppDelegate.m */; };
+		794C058E18E5217600A94FC3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */; };
+		794C059118E5217600A94FC3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794C058F18E5217600A94FC3 /* Main_iPad.storyboard */; };
+		794C059418E5217600A94FC3 /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C059318E5217600A94FC3 /* KLViewController.m */; };
+		794C059618E5217600A94FC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794C059518E5217600A94FC3 /* Images.xcassets */; };
+		CB17E7EF45EA43B5AC56751B /* libPods-KLCollectionLayoutsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 466925504EB345CF9F8FF943 /* libPods-KLCollectionLayoutsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D1DC114C934088A45F0064 /* Pods-KLCollectionLayoutsDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLCollectionLayoutsDemo.xcconfig"; path = "../Pods/Pods-KLCollectionLayoutsDemo.xcconfig"; sourceTree = "<group>"; };
+		466925504EB345CF9F8FF943 /* libPods-KLCollectionLayoutsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KLCollectionLayoutsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794C057718E5217600A94FC3 /* KLCollectionLayoutsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLCollectionLayoutsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794C057A18E5217600A94FC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		794C057C18E5217600A94FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		794C057E18E5217600A94FC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		794C058218E5217600A94FC3 /* KLCollectionLayoutsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLCollectionLayoutsDemo-Info.plist"; sourceTree = "<group>"; };
+		794C058418E5217600A94FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		794C058618E5217600A94FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		794C058818E5217600A94FC3 /* KLCollectionLayoutsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLCollectionLayoutsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		794C058918E5217600A94FC3 /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		794C058A18E5217600A94FC3 /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
+		794C058D18E5217600A94FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		794C059018E5217600A94FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		794C059218E5217600A94FC3 /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
+		794C059318E5217600A94FC3 /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		794C059518E5217600A94FC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		794C059C18E5217600A94FC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794C057418E5217600A94FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794C057D18E5217600A94FC3 /* CoreGraphics.framework in Frameworks */,
+				794C057F18E5217600A94FC3 /* UIKit.framework in Frameworks */,
+				794C057B18E5217600A94FC3 /* Foundation.framework in Frameworks */,
+				CB17E7EF45EA43B5AC56751B /* libPods-KLCollectionLayoutsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794C056E18E5217600A94FC3 = {
+			isa = PBXGroup;
+			children = (
+				794C058018E5217600A94FC3 /* KLCollectionLayoutsDemo */,
+				794C057918E5217600A94FC3 /* Frameworks */,
+				794C057818E5217600A94FC3 /* Products */,
+				39D1DC114C934088A45F0064 /* Pods-KLCollectionLayoutsDemo.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		794C057818E5217600A94FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794C057718E5217600A94FC3 /* KLCollectionLayoutsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794C057918E5217600A94FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				794C057A18E5217600A94FC3 /* Foundation.framework */,
+				794C057C18E5217600A94FC3 /* CoreGraphics.framework */,
+				794C057E18E5217600A94FC3 /* UIKit.framework */,
+				794C059C18E5217600A94FC3 /* XCTest.framework */,
+				466925504EB345CF9F8FF943 /* libPods-KLCollectionLayoutsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		794C058018E5217600A94FC3 /* KLCollectionLayoutsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				794C058918E5217600A94FC3 /* KLAppDelegate.h */,
+				794C058A18E5217600A94FC3 /* KLAppDelegate.m */,
+				794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */,
+				794C058F18E5217600A94FC3 /* Main_iPad.storyboard */,
+				794C059218E5217600A94FC3 /* KLViewController.h */,
+				794C059318E5217600A94FC3 /* KLViewController.m */,
+				794C059518E5217600A94FC3 /* Images.xcassets */,
+				794C058118E5217600A94FC3 /* Supporting Files */,
+			);
+			path = KLCollectionLayoutsDemo;
+			sourceTree = "<group>";
+		};
+		794C058118E5217600A94FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794C058218E5217600A94FC3 /* KLCollectionLayoutsDemo-Info.plist */,
+				794C058318E5217600A94FC3 /* InfoPlist.strings */,
+				794C058618E5217600A94FC3 /* main.m */,
+				794C058818E5217600A94FC3 /* KLCollectionLayoutsDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794C057618E5217600A94FC3 /* KLCollectionLayoutsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794C05AC18E5217600A94FC3 /* Build configuration list for PBXNativeTarget "KLCollectionLayoutsDemo" */;
+			buildPhases = (
+				723194419BBC4AED8F2FFA7A /* Check Pods Manifest.lock */,
+				794C057318E5217600A94FC3 /* Sources */,
+				794C057418E5217600A94FC3 /* Frameworks */,
+				794C057518E5217600A94FC3 /* Resources */,
+				401226D9B460465C8C9CA3FB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLCollectionLayoutsDemo;
+			productName = KLCollectionLayoutsDemo;
+			productReference = 794C057718E5217600A94FC3 /* KLCollectionLayoutsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794C056F18E5217600A94FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lundbergsoft;
+			};
+			buildConfigurationList = 794C057218E5217600A94FC3 /* Build configuration list for PBXProject "KLCollectionLayoutsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794C056E18E5217600A94FC3;
+			productRefGroup = 794C057818E5217600A94FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794C057618E5217600A94FC3 /* KLCollectionLayoutsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794C057518E5217600A94FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794C059118E5217600A94FC3 /* Main_iPad.storyboard in Resources */,
+				794C059618E5217600A94FC3 /* Images.xcassets in Resources */,
+				794C058E18E5217600A94FC3 /* Main_iPhone.storyboard in Resources */,
+				794C058518E5217600A94FC3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		401226D9B460465C8C9CA3FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-KLCollectionLayoutsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723194419BBC4AED8F2FFA7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794C057318E5217600A94FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794C059418E5217600A94FC3 /* KLViewController.m in Sources */,
+				794C058718E5217600A94FC3 /* main.m in Sources */,
+				794C058B18E5217600A94FC3 /* KLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		794C058318E5217600A94FC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794C058418E5217600A94FC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		794C058C18E5217600A94FC3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794C058D18E5217600A94FC3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		794C058F18E5217600A94FC3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794C059018E5217600A94FC3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794C05AA18E5217600A94FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794C05AB18E5217600A94FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794C05AD18E5217600A94FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D1DC114C934088A45F0064 /* Pods-KLCollectionLayoutsDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLCollectionLayoutsDemo/KLCollectionLayoutsDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLCollectionLayoutsDemo/KLCollectionLayoutsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		794C05AE18E5217600A94FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D1DC114C934088A45F0064 /* Pods-KLCollectionLayoutsDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLCollectionLayoutsDemo/KLCollectionLayoutsDemo-Prefix.pch";
+				INFOPLIST_FILE = "KLCollectionLayoutsDemo/KLCollectionLayoutsDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794C057218E5217600A94FC3 /* Build configuration list for PBXProject "KLCollectionLayoutsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794C05AA18E5217600A94FC3 /* Debug */,
+				794C05AB18E5217600A94FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794C05AC18E5217600A94FC3 /* Build configuration list for PBXNativeTarget "KLCollectionLayoutsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794C05AD18E5217600A94FC3 /* Debug */,
+				794C05AE18E5217600A94FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794C056F18E5217600A94FC3 /* Project object */;
+}

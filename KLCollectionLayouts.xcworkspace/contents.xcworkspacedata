@@ -5,6 +5,9 @@
       location = "group:KLCollectionLayouts.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:KLCollectionLayoutsDemo/KLCollectionLayoutsDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
